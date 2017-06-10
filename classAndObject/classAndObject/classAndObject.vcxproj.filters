@@ -15,22 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bauelement.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="Widerstand.h">
+    <ClInclude Include="Complex.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bauelement.cpp">
+    <ClCompile Include="Complex.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Ressourcendateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Widerstand.cpp">
-      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{87FE1A08-B510-4E1C-8948-5631B9E84791}</ProjectGuid>
+    <ProjectGuid>{A36A4E3C-12EF-405E-B339-43F4459A7532}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Vererbung</RootNamespace>
+    <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,13 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Bauelement.h" />
-    <ClInclude Include="Widerstand.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Bauelement.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Widerstand.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
