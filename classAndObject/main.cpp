@@ -8,6 +8,7 @@ int main()
 {
 	CComplex a(1, 2);
 	CComplex b(4, 6);
+	CComplex e(7, 6);
 
 	CComplex c = a.add(b);
 
@@ -17,4 +18,5 @@ int main()
 	a.print();
 	b.print();
 	c.print();
+	e.print();
 }
