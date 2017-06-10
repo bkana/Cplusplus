@@ -18,6 +18,9 @@
     <ClInclude Include="Bauelement.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Widerstand.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bauelement.cpp">
@@ -25,6 +28,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Widerstand.cpp">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

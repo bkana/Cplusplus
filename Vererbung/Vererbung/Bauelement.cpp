@@ -11,7 +11,7 @@ void CBauelement::setPreis(double preis)
 }
 double CBauelement::getPreis()
 {
-	return;
+	return m_preis;
 }
 void CBauelement::setPosition(int x, int y)
 {
