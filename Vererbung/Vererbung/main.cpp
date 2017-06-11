@@ -25,7 +25,7 @@ int main()
 	//cout << "Widerstand: " << r.getPreis << " EUR\n";
 	cout << "Position: (" << l.getX() << " , " << l.getY() << ")\n";
 	cout << "Preis: " << l.getPreis() << " EUR \n";
-	cout << "Widerstand: " << l.getL() << " F\n";
+	cout << "Spule: " << l.getL() << " F\n";
 
 	r.printElementSpecificValues();
 	l.printElementSpecificValues();
