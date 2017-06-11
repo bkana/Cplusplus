@@ -5,10 +5,16 @@ using namespace std;
 
 int main()
 {
-	CComplex* c1 = new CComplex(1.0, 2.0); // dynamic storage runs with new operator
-	
-	c1->print();
-	delete c1;							   // clean storage
+	int numElements;
+	cout << "How many complexes should be entered ? ";
+	cin >> numElements;
 
-	system("PAUSE");
+	CComplex* complexNums = new CComplex[numElements];
+
+	for (int i = 0; i < numElements; i++)
+	{
+		complexNums[i].setValues(i-1, i+1);
+		complexNums[i].print();
+	}
+	delete[] complexNums;
 }

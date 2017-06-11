@@ -26,6 +26,12 @@ void CComplex::print()
 	cout << m_real << " + " << m_imag << "j \n";
 }
 
+void CComplex::setValues(double real, double imag)
+{
+	m_real = real;
+	m_imag = imag;
+}
+
 
 CComplex::~CComplex()
 {
