@@ -12,7 +12,7 @@ public:
 	int  getX();
 	int getY();
 
-	void printElementSpecificValues();
+	virtual void printElementSpecificValues() = 0;
 protected: 
 	double m_preis;
 	int m_x;

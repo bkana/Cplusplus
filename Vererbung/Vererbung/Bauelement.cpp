@@ -28,10 +28,10 @@ int CBauelement::getY()
 	return m_y;
 }
 
-void CBauelement::printElementSpecificValues()
-{
-	cout << "Keine spezifischen Werte" << endl;
-}
+//void CBauelement::printElementSpecificValues()
+//{
+//	cout << "Keine spezifischen Werte" << endl;
+//}
 
 
 CBauelement::~CBauelement()
