@@ -6,7 +6,9 @@ using namespace std;
 int main()
 {
 	CComplex* c1 = new CComplex(1.0, 2.0); // dynamic storage runs with new operator
+	
 	c1->print();
+	delete c1;							   // clean storage
 
 	system("PAUSE");
 }
