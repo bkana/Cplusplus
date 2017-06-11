@@ -7,6 +7,10 @@ using namespace std;
 CWiderstand::CWiderstand()
 {
 }
+CWiderstand::CWiderstand(double r, int x, int y, double preis) : CBauelement(x, y, preis)
+{
+	m_r = r;
+}
 void CWiderstand::setR(double r)
 {
 	m_r = r;
