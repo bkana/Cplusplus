@@ -47,7 +47,4 @@
       <Filter>Ressourcendateien</Filter>
     </ResourceCompile>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagramm.cd" />
-  </ItemGroup>
 </Project>

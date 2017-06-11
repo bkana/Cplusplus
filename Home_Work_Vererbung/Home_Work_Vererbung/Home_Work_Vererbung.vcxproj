@@ -160,9 +160,6 @@
   <ItemGroup>
     <ResourceCompile Include="Home_Work_Vererbung.rc" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagramm.cd" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
