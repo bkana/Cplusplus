@@ -21,6 +21,12 @@
     <ClInclude Include="Widerstand.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Kondensator.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Spule.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bauelement.cpp">
@@ -30,6 +36,12 @@
       <Filter>Ressourcendateien</Filter>
     </ClCompile>
     <ClCompile Include="Widerstand.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Kondensator.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Spule.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

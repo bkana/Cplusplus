@@ -147,11 +147,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Bauelement.h" />
+    <ClInclude Include="Kondensator.h" />
+    <ClInclude Include="Spule.h" />
     <ClInclude Include="Widerstand.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bauelement.cpp" />
+    <ClCompile Include="Kondensator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Spule.cpp" />
     <ClCompile Include="Widerstand.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
