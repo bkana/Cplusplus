@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	CWiderstand r;
-	CWiderstand t;
+	//CWiderstand t;
 
 	r.setPosition(5, 2);
 	r.setPreis(1.99);
@@ -17,6 +17,8 @@ int main()
 	cout << "Position: (" << r.getX() << " , " << r.getY() << ")\n";
 	cout << "Preis: " << r.getPreis() << " EUR \n";
 	cout << "Widerstand: " << r.getR() << " Ohm\n";
-	cout << "Widerstand: " << r.getPreis << " EUR\n";
+	//cout << "Widerstand: " << r.getPreis << " EUR\n";
+
+	r.printElementSpecificValues();
 	system("PAUSE");
 }

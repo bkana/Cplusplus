@@ -8,6 +8,8 @@ public:
 
 	void setR(double r);
 	double getR();
+
+	void printElementSpecificValues();
 private:
 	double m_r;
 };

@@ -11,6 +11,8 @@ public:
 	void setPosition(int x, int y);
 	int  getX();
 	int getY();
+
+	void printElementSpecificValues();
 protected: 
 	double m_preis;
 	int m_x;

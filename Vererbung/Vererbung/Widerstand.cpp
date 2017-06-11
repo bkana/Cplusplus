@@ -1,5 +1,7 @@
 #include "Widerstand.h"
+#include <iostream>
 
+using namespace std;
 
 
 CWiderstand::CWiderstand()
@@ -14,7 +16,10 @@ double CWiderstand::getR()
 {
 	return m_r;
 }
-
+void CWiderstand::printElementSpecificValues()
+{
+	cout << "R = " << m_r << " Ohm" << endl;
+}
 CWiderstand::~CWiderstand()
 {
 }

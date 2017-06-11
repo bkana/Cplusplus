@@ -1,6 +1,7 @@
 #include "Bauelement.h"
+#include <iostream>
 
-
+using namespace std;
 
 CBauelement::CBauelement()
 {
@@ -25,6 +26,11 @@ int CBauelement::getX()
 int CBauelement::getY()
 {
 	return m_y;
+}
+
+void CBauelement::printElementSpecificValues()
+{
+	cout << "Keine spezifischen Werte" << endl;
 }
 
 
