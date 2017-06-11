@@ -10,7 +10,7 @@ public:
 	void calcCircumference();
 	void calcArea();
 
-private:
+protected:
 	int m_long;
 	int m_larg;
 };

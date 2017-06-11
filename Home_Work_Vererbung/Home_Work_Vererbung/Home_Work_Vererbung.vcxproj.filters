@@ -27,6 +27,9 @@
     <ClInclude Include="resource.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Shape.cpp">
@@ -40,6 +43,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
