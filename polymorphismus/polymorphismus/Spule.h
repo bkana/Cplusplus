@@ -1,5 +1,6 @@
 #pragma once
-class CSpule
+#include "Bauelement.h"
+class CSpule : public CBauelement
 {
 public:
 	CSpule();

@@ -1,5 +1,6 @@
 #pragma once
-class CKondensator
+#include "Bauelement.h"
+class CKondensator : public CBauelement
 {
 public:
 	CKondensator();
