@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B95467FC-753D-48EB-8AB7-198D612BFDB3}</ProjectGuid>
+    <ProjectGuid>{55917068-5997-419F-854F-8C31FAEFE41E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DesignPattern</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,10 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CtestSingleton.h" />
+    <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CtestSingleton.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
