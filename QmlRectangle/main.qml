@@ -11,8 +11,7 @@ Window {
         id : rect1
         width: root.width/2
         height: root.height/2
-        x: root.width/4
-        y: root.height/4
+        anchors.centerIn: parent
         color: "red"
 
         border {
