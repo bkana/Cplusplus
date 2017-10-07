@@ -21,7 +21,22 @@ Window {
         }
         radius: root.width/20
 
+        MouseArea{
+            anchors.fill: parent
+
+            onClicked: {
+                rect1.color = "#33000000"
+                console.log("Hello World")
+            }
+
+            onDoubleClicked: {
+                rect1.color = "brown"
+            }
+        }
+
     }
+
+    /*
     Rectangle {
         id : rect2
         width: root.width/4
@@ -37,6 +52,7 @@ Window {
         radius: root.width/20
 
     }
+    */
 
 
 }
