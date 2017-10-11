@@ -17,6 +17,7 @@ public:
   */
    void run();
   /**
+   * if Stop = true, the thread will break
    * variable that mutex protects
   */
   bool Stop;
