@@ -7,15 +7,19 @@
 class MyThread : public QThread
 {
 public:
-  /*
+  /**
    *Constructor
    * @param Qstring to initilize menber variable
   */
    explicit MyThread(QString s);
-  /*
+  /**
    * overriding the QThread's run() method
   */
    void run();
+  /**
+   * variable that mutex protects
+  */
+  bool Stop;
 private:
    /*< nember variable name*/
    QString name;
