@@ -12,7 +12,30 @@ Window {
     color: "black"
 
     title: qsTr("Text")
+
+//    ColumnLayout{
+//        anchors.fill: parent
+//        anchors.margins: 80
+
+//        RowLayout{
+//            Layout.alignment: Qt.AlignHCenter
+//            Layout.preferredWidth: 160
+//            Layout.maximumWidth: 160
+//            spacing: (160-4*18)/3
+//        }
+
+    Rectangle{
+        id: rect1
+        width: rect2.width
+        height: rect2.height/4
+        anchors.bottom: rect2.top
+        x: 160
+        radius: 10
+
+    }
+
     Rectangle {
+        id: rect2
         width: pinButtonLayout.width
         height: pinButtonLayout.height
         color : "#778899"
@@ -21,7 +44,6 @@ Window {
         gradient: Gradient{
             GradientStop { position: 0.0; color: "#525D63"}
             GradientStop { position: 1.0; color: "#31363A"}
-
         }
 
     }
@@ -32,7 +54,7 @@ Window {
          id: pinButtonLayout
          columns: 3
          columnSpacing: 0
-         rowSpacing: 1
+         rowSpacing: 2
 
 
          PinScreen{id: pinButton1; numberText: "1"}
@@ -48,4 +70,12 @@ Window {
          PinScreen{numberText: "0"}
          PinScreen{numberText: ""; funcText: "DELETE"}
        }
+      /* Text{
+           Layout.alignment: Qt.AlignCenter
+           text: "ENTER PIN CODE"
+           color: "white"
+           font.family: "DIN"
+           font.pointSize: 15
+       }*/
+    //}
 }
