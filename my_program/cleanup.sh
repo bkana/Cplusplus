@@ -3,6 +3,7 @@
 make distclean &> /dev/null
 rm -rf \
   Makefile.in \
+  */Makefile.in \
   aclocal.m4 \
   ar-lib \
   autom4te.cache \
