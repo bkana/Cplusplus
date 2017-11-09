@@ -1,22 +1,24 @@
 #include <iostream>
 #include "helper.h"
 #include "../my_inc/myadd.h"
-#include <forward_list>
+#include <list>
+#include "TestThread.h"
 
 using namespace std;
 
-void ausgeben(forward_list <int> x)
+void ausgeben(list <int> x)
 {
-  forward_list <int>::iterator pos;
+  list <int>::iterator pos;
   for(pos = x.begin(); pos != x.end(); pos++)
 	cout << *pos << " ";
   cout << endl;
 }
 int main()
 {
+ TestThread *test = new TestThread();
  MyAdd add_obj;
- forward_list <int> f;
- forward_list <int>::iterator pos;
+ list <int> f;
+ list <int>::iterator pos;
  
 
  for(int i = 0; i < 5; i++)
@@ -26,11 +28,10 @@ int main()
  f.pop_front();
  ausgeben(f);
  
- pos = f.begin();
- f.insert_after(pos, 77);
+
+ f.sort();
  ausgeben(f);
- 
- pos = f.begin();
- f.erase_after(pos);
+
+ f.reverse();
  ausgeben(f);
  }
