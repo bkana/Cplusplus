@@ -68,6 +68,10 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
+*.o
+*.0
+*.1
+*.in
 
 # Chutzpah Test files
 _Chutzpah*
@@ -241,3 +245,11 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 build-*
+my_program/src/Makefile.in
+my_program/src/Makefile
+my_program/inc/Makefile.in
+my_program/inc/Makefile
+
+
+
+
