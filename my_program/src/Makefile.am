@@ -8,6 +8,7 @@ noinst_LIBRARIES = libsrc.a
 libsrc_a_SOURCES = \ 
   helper.cpp \
   TestThread.cpp
+
 # noinst_ : assures that this library is not installed to the user's computer.
 # libBLAH.a is a *nix convention. If you noticed, we replaced the . with _ in Sources line.
 main_LDADD = libsrc.a ../my_inc/libmyadd.a
