@@ -1,13 +1,12 @@
 #include <QCoreApplication>
 #include "myobject.h"
-#include "newobject.h"
+
+//using namespace moveToThread;
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    //QThread cThread, newThread;
-    Myobject cObject;
-    NewObject newObject;
+    moveToThread::Myobject cObject, newObject;
 
     QThread cThread;
     cObject.Dosetup(cThread);
