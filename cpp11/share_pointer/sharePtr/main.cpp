@@ -44,5 +44,12 @@ int main()
 {
     foo();
 
+    // An object should be assigned to a smart pointer as soon as it is created. Raw pointer should not be used.
+    Dog* d = new Dog("Tank");
+    shared_ptr<Dog> p(d);
+    shared_ptr<Dog> p2(d);
+
+    p->bark();
+    p2->bark();
     return 0;
 }
