@@ -25,31 +25,18 @@ public:
     }
 };
 
-void foo()
-{
-    shared_ptr<Dog> p(new Dog("Gunner")); // Count = 1
-
-    {
-        shared_ptr<Dog> p2=p; // Count = 2
-        p2->bark();
-        cout << p.use_count() << endl;
-    }
-    // count = 1
-
-    p->bark();
-    cout << p.use_count() << endl;
-} // Count = 0
 
 int main()
 {
-    foo();
 
-    // An object should be assigned to a smart pointer as soon as it is created. Raw pointer should not be used.
-    Dog* d = new Dog("Tank");
-    shared_ptr<Dog> p(d);
-    shared_ptr<Dog> p2(d);
-
+    shared_ptr<Dog> p = make_shared<Dog>("Tank"); // faster and safer
     p->bark();
-    p2->bark();
+
+    cout << p.use_count() << endl;
+    // static_pointer_cast
+    // dynamic_pointer_cast
+    // const_pointer_cast
+
     return 0;
-}
+
+} // count = 0
