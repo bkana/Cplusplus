@@ -29,8 +29,7 @@ void foo()
     Dog* p = new Dog("Gunner");
     p->bark();
 
-    delete p;
-}
+} // memory leak
 int main()
 {
     foo();
